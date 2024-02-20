@@ -1,4 +1,4 @@
-const app = require("../index");
+const app = require("../dist/index");
 const { createServer } = require("http");
 const server = createServer(app);
 
